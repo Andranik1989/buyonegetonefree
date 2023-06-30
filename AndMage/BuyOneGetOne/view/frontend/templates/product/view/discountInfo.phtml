@@ -1,0 +1,5 @@
+<?php if ($this->helper(\AndMage\BuyOneGetOne\Helper\Data::class)->getDiscountProductExist($block->getProduct()->getId())): ?>
+    <div class="discount-info">
+        <?php echo __('Buy one product get second product 100% sale'); ?>
+    </div>
+<?php endif; ?>

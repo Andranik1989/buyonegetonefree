@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content.top.most">
+            <container name="message.about.discount" htmlTag="div" htmlClass="custom-product-subname" before="-">
+                <block class="Magento\Catalog\Block\Product\View" name="message.about.discount.info" template="AndMage_BuyOneGetOne::product/view/discountInfo.phtml" />
+            </container>
+        </referenceContainer>
+        <move element="message.about.discount" destination="product.info.main" after="page.main.title"/>
+    </body>
+</page>

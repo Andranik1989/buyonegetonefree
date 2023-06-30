@@ -1,0 +1,30 @@
+{
+    "name": "andmage/buyonegetone",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "description": "Buy One Get One Free",
+    "require": {
+        "php": "~7.2.0",
+        "magento/framework": "^2.4"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {
+            "AndMage\\BuyOneGetOne\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Andranik",
+            "email": "andranik89.v@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/Andranik1989/temp.git"
+        }
+    ]
+
+}
+

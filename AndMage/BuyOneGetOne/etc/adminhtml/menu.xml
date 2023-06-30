@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="AndMage_BuyOneGetOne::productsgrid" title="Promoted products" module="AndMage_BuyOneGetOne" sortOrder="100" parent="Magento_Catalog::catalog" resource="AndMage_BuyOneGetOne::productsgrid" action="buyonegetone/promotedproducts"/>
+    </menu>
+</config>
